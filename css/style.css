@@ -86,9 +86,7 @@ body {
 .header_section {
   background-color: #e20000;
   position: fixed;
-  width: 100%;
-
-  top: 0; /* Sticks to the top of the page */
+  width: 100%; top: 0; /* Sticks to the top of the page */
         
           
   z-index: 1000; /* Ensures the navbar stays on top */
@@ -199,7 +197,7 @@ a:focus {
   color: #ffffff;
   text-align: center;
   overflow: hidden;
-  height: 40px; /* Adjust height as needed */
+  height: 30px; /* Adjust height as needed */
   width: 100%; /* Full width of the container */
   position: relative;
   display: flex;
@@ -291,7 +289,7 @@ a:focus {
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
-  margin-top: 200px;
+  margin-top: 150px;
 }
 .slider_item-container-heatpad{
   display: flex;
@@ -744,11 +742,7 @@ a:focus {
 .social-icon:hover {
   transform: scale(1.1);
 }
-.logo-nav{
-  padding: 10px;
-  width: 70px;
-  height: 70px;
-}
+
 
 
 
