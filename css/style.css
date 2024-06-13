@@ -619,7 +619,7 @@ a:focus {
   overflow: hidden;
   border-radius: 10px;
   border-color: #ff0000;
-  
+  margin-top: 30px;
   box-shadow: 0 8px 8px rgb(236, 0, 0);
   position: relative;
   
@@ -742,7 +742,24 @@ a:focus {
 .social-icon:hover {
   transform: scale(1.1);
 }
+.exp-btn {
+  background-color: #ff0000; /* Red color */
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+ 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
 
+.exp-btn:hover {
+  background-color: #cc0000; /* Darker red when hovering */
+}
 
 
 
