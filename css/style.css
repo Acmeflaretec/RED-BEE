@@ -744,6 +744,11 @@ a:focus {
 .social-icon:hover {
   transform: scale(1.1);
 }
+.logo-nav{
+  padding: 10px;
+  width: 70px;
+  height: 70px;
+}
 
 
 
