@@ -132,7 +132,7 @@ a:focus {
 .navbar-brand:hover {
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 30px;
   color: #fafcfd;
 }
 
@@ -192,6 +192,28 @@ a:focus {
   font-size: 20px;
   
 }
+.whatsapp-button {
+  display: inline-flex;
+  align-items: center;
+  background-color: #25D366; /* WhatsApp green color */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.whatsapp-button:hover {
+  background-color: #1DA851; /* Darker green on hover */
+}
+
+.whatsapp-button img {
+  margin-right: 10px;
+  width: 24px;
+  height: 24px;
+}
 .notification-carousel {
   background-color: #000000;
   color: #ffffff;
@@ -206,7 +228,7 @@ a:focus {
 
 .carousel-n {
   display: flex;
-  animation: slide 60s linear infinite; /* Adjust duration as needed */
+  animation: slide 90s linear infinite; /* Adjust duration as needed */
 }
 
 .carousel-item-n {
@@ -299,8 +321,14 @@ a:focus {
   background-repeat: no-repeat;
   margin-top: 50px;
 }
-
-
+.slider_item-container-red {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  margin-top: 100px;
+}
 
 .slider_item-detail h1 {
   font-weight: 700;
@@ -760,7 +788,23 @@ a:focus {
 .exp-btn:hover {
   background-color: #cc0000; /* Darker red when hovering */
 }
-
+.logo-img{
+  width: 60px;
+  height: 70px;
+}
+.light-up{
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: #e20000;
+  margin-left: 100px;
+  font-size: 20px;
+  
+}
+.slider_item-detail-red{
+  font-weight: 700;
+  font-size: 60px;
+  width: 95%;
+  margin-top: 100px;
+}
 
 
 
