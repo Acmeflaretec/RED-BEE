@@ -789,9 +789,21 @@ a:focus {
   background-color: #cc0000; /* Darker red when hovering */
 }
 .logo-img{
-  width: 60px;
-  height: 70px;
+  width: 40px;
+  height: 50px;
+  margin-right: 10px;
+  animation: scale 6s ease-in-out infinite;
 }
+
+  @keyframes scale {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+}
+
 .light-up{
   font-family: 'Comic Sans MS', cursive, sans-serif;
   color: #e20000;
